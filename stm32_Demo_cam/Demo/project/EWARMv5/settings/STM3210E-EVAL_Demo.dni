@@ -1,0 +1,89 @@
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[JLinkDriver]
+SWOInfo_CpuClock=0x044AA200
+SWOInfo_SWOClockAutoDetect=0
+SWOInfo_JtagSpeed=0x001E8480
+SWOInfo_SWOPrescaler=0x00000024
+SWOInfo_SWOClockWanted=0x001E8480
+SWOInfo_HWTraceEnabled=0
+SWOInfo_TimestampsEnabled=0
+SWOInfo_TimestampsPrescalerIndex=0x00000000
+SWOInfo_TimestampsPrescalerData=0x00000000
+SWOInfo_PCSamplingEnabled=0
+SWOInfo_PCSamplingCYCTAP=0x00000001
+SWOInfo_PCSamplingPOSTCNT=0x0000000F
+SWOInfo_CPIEnabled=0
+SWOInfo_EXCEnabled=0
+SWOInfo_SLEEPEnabled=0
+SWOInfo_LSUEnabled=0
+SWOInfo_FOLDEnabled=0
+SWOInfo_EXCTRCEnabled=0
+SWOInfo_ITMPortsEnabled=0x00000000
+SWOInfo_ITMPortsTermIO=0x00000000
+SWOInfo_ITMPortsLogFile=0x00000000
+SWOInfo_ITMLogFile=$PROJ_DIR$\ITM.log
+SWOInfo_DataLogMode=0x00000000
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-913235927
+[InstructionProfiling]
+Enabled=_ 0
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$}.58.15@1" 0 0 0 0 "" 0 "" 0
+Bp1=_ "STD_CODE" "{D:\astm32_HZ_LD\Demo\project\EWARMv5}.238.10@1" 0 0 0 0 "" 0 "" 0
+Bp2=_ "STD_CODE" "{C:\Documents and Settings\Administrator\桌面\stm32_Demo_cam\Demo\source\main.c}.89.15@1" 0 0 0 0 "" 0 "" 0
+Count=3
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Documents and Settings\wangguanfu\桌面\stm32_Demo_ov7725\Demo\source\stm32f10x_it.c" "C:\Documents and Settings\wangguanfu\桌面\stm32_Demo_ov7670\Demo\source\stm32f10x_it.c"
+A1=_ "D:\astm32_Demo_OV7670\Demo\source\ILI9331.C" "D:\astm32_Demo_OV7725\Demo\source\ILI9331.C"
+A2=_ "D:\astm32_Demo_OV7670\Demo\source\main.c" "D:\astm32_Demo_OV7725\Demo\source\main.c"
+A3=_ "E:\STM32_FOR_ov7670\astm32_Demo_OV7670\Demo\project\EWARMv5\cortexm3_macro.s" "C:\Documents and Settings\wangguanfu\桌面\astm32_Demo_OV7725\Demo\project\EWARMv5\cortexm3_macro.s"
+A4=_ "E:\STM32_FOR_ov7670\astm32_Demo_OV7670\FWLib\library\src\stm32f10x_rcc.c" ""
+Count=5
+SuppressDialog=1
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[TraceHelperExtra]
+Enabled=0
+ShowSource=1
+[DriverProfiling]
+Enabled=0
+Source=4
+Graph=0
